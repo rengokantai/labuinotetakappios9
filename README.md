@@ -1,11 +1,12 @@
-#### labuinotetakappios9
-######Creating the Xcode project
+# labuinotetakappios9
+##3. Getting Started
+###1 Creating the Xcode project
 create a master detail project
-######Applying an app icon
+###3 Applying an app icon
 shift cmd h ->return to home
 
 
-######Viewing the template code
+###4 Viewing the template code
 ```
 //executed as expected when the view is loaded, data for the view has loaded up
 override func viewDidLoad{
@@ -36,3 +37,6 @@ func insertNew(sender: AnyObject){
 	self.tableView.insertRowsAtIndexPaths([indexPath],withAnimation: .Automation)
 }
 ```
+
+##5. Supporting a Split View
+
